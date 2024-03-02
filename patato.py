@@ -189,7 +189,7 @@ class DLModel:
             plt.subplot(1, len(images), i)
             plt.title('Görüntü {}'.format(i))
             plt.imshow(images[i])
-            plt.axis('off')  # Eksenleri kapat
+            plt.axis('off')
         plt.show()
         
     @staticmethod
